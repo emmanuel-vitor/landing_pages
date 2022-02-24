@@ -1,0 +1,55 @@
+:root{
+    --text-color: #c7c7cc;
+    --text-color-transition: #fff;
+    --background-header:  #16161633;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+        
+}
+header{
+    width: 100%;
+    height: 10vh;
+    background-color:var(--background-header)!important;
+}
+h1{
+    color: var(--text-color);
+    text-transform: uppercase;
+    font-size: 2rem!important;
+}
+a,
+a:link{
+    color: var(--text-color)!important;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 1em;
+}
+a:hover{
+    color: var(--text-color-transition)!important;
+    transition: all 1s;
+    
+}
+.icons{
+   color: #fff!important;
+}
+
+body{
+    background: linear-gradient(#111111cc, #141414),url("img/background-gym.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+     background-position-y: 0px;
+     height: 100vh;
+   }
+
+   main{
+       margin: 12em ;
+   }
+   main > h2, p{
+      color: var(--text-color);
+   }
+   form{
+       width: 35vw;
+   }
